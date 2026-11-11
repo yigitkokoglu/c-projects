@@ -9,7 +9,7 @@ int main(void) {
   scanf("%d", &option);
   int degree;
 
-  if (option > 2 || option < 0) {
+  if (option > 2 || option < 0 || option == 0) {
     printf("invalid  operator, please enter either 1 or 2.\n");
   }
 
